@@ -32,13 +32,13 @@ Accuracy comparisons
 
 Accuracy of 1a on test set is 86%.
 
-13 false negatives and 188 false positives out of 1460 predictions. False negatives represent pneumonia x-rays classified as normal and are more harmful than false positives. 1% false negative rate is acceptably low.  
+19 false negatives and 148 false positives out of 1460 predictions. False negatives represent pneumonia x-rays classified as normal and are more harmful than false positives. 1% false negative rate is acceptably low.  
 
 ![corrmatrx](./Images/cnfm.png)
 
 # Results/Conclusions
 
-Model1a performed best.  The chosen model's accuracy on the holdout test set was 86%.  This can be compared to guessing based on the sample balance, which would yield 73% accuracy.  The false negative rate was very low at 1%. Thus this model can be used as a check by the radiologist, for instance on x-rays that they are less certain about.  
+Model3 performed best.  The chosen model's accuracy on the holdout test set was 88%.  This can be compared to guessing based on the sample balance, which would yield 73% accuracy.  The false negative rate was very low at 1%. Thus this model can be used as a check by the radiologist, for instance on x-rays that they are less certain about.    
 
 # Future work
 
