@@ -1,5 +1,5 @@
 # Xray classification
-
+Jonathan Marks
 
 
 # Business Problem
@@ -40,7 +40,22 @@ Accuracy of 1a on test set is 86%.
 
 Model3 performed best.  The chosen model's accuracy on the holdout test set was 88%.  This can be compared to guessing based on the sample balance, which would yield 73% accuracy.  The false negative rate was very low at 1%. Thus this model can be used as a check by the radiologist, for instance on x-rays that they are less certain about.    
 
-# Future work
+# Recommendations and Future work
+
+-This model can be used as a check by the radiologist, for instance on x-rays that they are less certain about.
+-The model can be examined to determine the important features and the parts of the image that are most important for helpful insights.
+
+### Future work
 
 - Use CNN
-- Alter activation functions 
+- Alter activation functions`
+
+## Contact information
+
+jmarksk@gmail.com
+5169963175
+
+# Repository Structure
+- Xray.ipynb
+- README.md
+- Xray_presentation.pdf
