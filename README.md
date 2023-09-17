@@ -42,8 +42,8 @@ Model3 performed best.  The chosen model's accuracy on the holdout test set was 
 
 # Recommendations and Future work
 
--This model can be used as a check by the radiologist, for instance on x-rays that they are less certain about.
--The model can be examined to determine the important features and the parts of the image that are most important for helpful insights.
+- This model can be used as a check by the radiologist, for instance on x-rays that they are less certain about.
+- The model can be examined to determine the important features and the parts of the image that are most important for helpful insights.
 
 ### Future work
 
