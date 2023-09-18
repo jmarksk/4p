@@ -1,6 +1,7 @@
   # Xray classification
 Jonathan Marks
 
+The presentation can be found [here]('./Xray_presentation.pdf').
 
 # Business Problem
 
@@ -28,7 +29,9 @@ The data consists of 5,856 chest x-ray images. Each image is labelled as either 
 
 Accuracy comparisons 
 
-![acctablex](./images/acctablex.png)
+![acctable](./Images/acctable.png)
+
+![acctablex](./Images/acctablex.png)
 
 Accuracy of model3 on test set is 88%.
 
