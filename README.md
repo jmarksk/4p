@@ -1,4 +1,4 @@
-# Xray classification
+  # Xray classification
 Jonathan Marks
 
 
@@ -8,7 +8,7 @@ The business problem is a radiologist who wants to double-check their work with 
 
 # Data Understanding
 
-The data consists of 5,856 chest x-ray images. Each image is labelled as either normal or pneumonia.  25% of the images are labelled normal and 75% pneumonia.  The data comes from an x-ray imaging lab. 
+The data consists of 5,856 chest x-ray images. Each image is labelled as either normal or pneumonia.  25% of the images are labelled normal and 75% pneumonia.  The [data]('./data/archive/chest_xray/') comes from an x-ray imaging lab.  
 
 ### Example 
 
@@ -28,9 +28,9 @@ The data consists of 5,856 chest x-ray images. Each image is labelled as either 
 
 Accuracy comparisons 
 
-![acctable](./Images/acctable.png)
+![acctablex](./images/acctablex.png)
 
-Accuracy of 1a on test set is 86%.
+Accuracy of model3 on test set is 88%.
 
 19 false negatives and 148 false positives out of 1460 predictions. False negatives represent pneumonia x-rays classified as normal and are more harmful than false positives. 1% false negative rate is acceptably low.  
 
@@ -56,6 +56,6 @@ jmarksk@gmail.com
 5169963175
 
 # Repository Structure
-- Xray.ipynb
+- xray.ipynb
 - README.md
-- Xray_presentation.pdf
+- xray_presentation.pdf
