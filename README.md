@@ -1,4 +1,4 @@
-  # Xray classification
+# Xray classification
 Jonathan Marks
 
 The presentation can be found [here]('./Xray_presentation.pdf').
@@ -15,7 +15,7 @@ The data consists of 5,856 chest x-ray images. Each image is labelled as either 
 
 ![scan](./Images/scan.png)
 
-
+ 
 # Modeling
 
 - initial model, a neural network with 1 hidden layer, with 64 neurons.
@@ -26,6 +26,7 @@ The data consists of 5,856 chest x-ray images. Each image is labelled as either 
 
 - model 3, by increasing the learning rate of the optimizer from default .001 to .05 in order to try to increase accuracy.  
 
+- Experimental CNN model achieves 92% accuracy on training set.
 
 Accuracy comparisons 
 
@@ -50,8 +51,8 @@ Model3 performed best.  The chosen model's accuracy on the holdout test set was 
 
 ### Future work
 
-- Use CNN
-- Alter activation functions`
+- More fully develop CNN model
+- Alter activation functions
 
 ## Contact information
 
